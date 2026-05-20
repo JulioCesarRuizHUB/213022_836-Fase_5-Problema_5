@@ -8,9 +8,6 @@ Dias_laborales = 6  # columna 0 = nombre, columnas 1-5 = Lunes-Viernes
 # Matriz para registrar las horas laborales de cada recurso durante la semana.
 matriz_general = [[0] * Dias_laborales for _ in range(Recursos)]
 
-# Matriz de días laborales para referencia.
-matriz_dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
-
 # Informacion de empleados y horas trabajadas durante la semana.
 matriz_general[0] = ["Ana", 8, 8, 6, 8, 8]    # 38 horas - Parcial
 matriz_general[1] = ["Luis", 8, 8, 8, 8, 8]   # 40 horas - Completa
